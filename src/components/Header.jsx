@@ -2,7 +2,12 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <section className="">
+      <div className="max-w-700 mx-auto">
+
+      </div>
+
+    </section>
   )
 }
 
