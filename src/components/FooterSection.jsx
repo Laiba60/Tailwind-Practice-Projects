@@ -2,9 +2,12 @@ import React from 'react'
 
 const FooterSection = () => {
   return (
-    <div>
-        FooterSection
-    </div>
+    <section className="w-full h-screen">
+      <div className="max-w-700 mx-auto">
+
+      </div>
+
+    </section>
   )
 }
 
