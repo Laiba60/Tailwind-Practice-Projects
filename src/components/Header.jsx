@@ -35,7 +35,7 @@ const Header = () => {
                 <li key={item}>
                   <a
                     href="#"
-                    className="text-white text-[15px] font-[var(--font-jost)] uppercase hover:text-green-400 transition"
+                    className="text-white text-[15px] font-(--font-jost) uppercase hover:text-green-400 transition"
                   >
                     {item}
                   </a>
@@ -94,7 +94,7 @@ const Header = () => {
                 <li key={item}>
                   <a
                     href="#"
-                    className="text-white text-[18px] font-[var(--font-jost)] uppercase hover:text-green-400 transition"
+                    className="text-white text-[18px] font-(--font-jost) uppercase hover:text-green-400 transition"
                     onClick={() => setIsOpen(false)} // Close menu on click
                   >
                     {item}
@@ -106,7 +106,7 @@ const Header = () => {
         )}
       </header>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center z-10 px-4">
-        <h1 className="text-white text-4xl md:text-6xl font-[var(--font-jost)] font-bold mb-4">
+        <h1 className="text-white text-4xl md:text-6xl font-(--font-jost) font-weight-700 mb-4">
           Welcome to Our Company
         </h1>
         <p className="text-white text-lg md:text-2xl mb-6">
