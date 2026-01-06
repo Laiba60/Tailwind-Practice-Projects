@@ -3,7 +3,7 @@ import camel from "../assets/images/camel.webp";
 
 const HeroSection = () => {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-10">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 items-center gap-8 px-6 sm:px-10 lg:px-20">
         
         {/* Hero Image */}
